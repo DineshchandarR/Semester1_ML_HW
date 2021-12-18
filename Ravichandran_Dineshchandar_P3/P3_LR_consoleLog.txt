@@ -1,0 +1,181 @@
+
+
+runfile('F:/Clemson/COURSE/SEM-1/Machine Learning Implementation and Evaluation(CPSC6430)/Project3/Ravichandran_Dineshchandar _P3_LR.py', wdir='F:/Clemson/COURSE/SEM-1/Machine Learning Implementation and Evaluation(CPSC6430)/Project3')
+     sepal_length  sepal_width  petal_length  petal_width species
+123           6.3          2.7           4.9          1.8       0
+24            4.8          3.4           1.9          0.2       1
+25            5.0          3.0           1.6          0.2       1
+23            5.1          3.3           1.7          0.5       1
+94            5.6          2.7           4.2          1.3       0
+..            ...          ...           ...          ...     ...
+71            6.1          2.8           4.0          1.3       0
+106           4.9          2.5           4.5          1.7       0
+14            5.8          4.0           1.2          0.2       1
+92            5.8          2.6           4.0          1.2       0
+102           7.1          3.0           5.9          2.1       0
+
+[90 rows x 5 columns] 
+      sepal_length  sepal_width  petal_length  petal_width species
+73            6.1          2.8           4.7          1.2       0
+18            5.7          3.8           1.7          0.3       1
+118           7.7          2.6           6.9          2.3       0
+78            6.0          2.9           4.5          1.5       0
+76            6.8          2.8           4.8          1.4       0
+31            5.4          3.4           1.5          0.4       1
+64            5.6          2.9           3.6          1.3       0
+141           6.9          3.1           5.1          2.3       0
+68            6.2          2.2           4.5          1.5       0
+82            5.8          2.7           3.9          1.2       0
+110           6.5          3.2           5.1          2.0       0
+12            4.8          3.0           1.4          0.1       1
+36            5.5          3.5           1.3          0.2       1
+9             4.9          3.1           1.5          0.1       1
+19            5.1          3.8           1.5          0.3       1
+56            6.3          3.3           4.7          1.6       0
+104           6.5          3.0           5.8          2.2       0
+69            5.6          2.5           3.9          1.1       0
+55            5.7          2.8           4.5          1.3       0
+132           6.4          2.8           5.6          2.2       0
+29            4.7          3.2           1.6          0.2       1
+127           6.1          3.0           4.9          1.8       0
+26            5.0          3.4           1.6          0.4       1
+128           6.4          2.8           5.6          2.1       0
+131           7.9          3.8           6.4          2.0       0
+145           6.7          3.0           5.2          2.3       0
+108           6.7          2.5           5.8          1.8       0
+143           6.8          3.2           5.9          2.3       0
+45            4.8          3.0           1.4          0.3       1
+30            4.8          3.1           1.6          0.2       1
+22            4.6          3.6           1.0          0.2       1
+15            5.7          4.4           1.5          0.4       1
+65            6.7          3.1           4.4          1.4       0
+11            4.8          3.4           1.6          0.2       1
+42            4.4          3.2           1.3          0.2       1
+146           6.3          2.5           5.0          1.9       0
+51            6.4          3.2           4.5          1.5       0
+27            5.2          3.5           1.5          0.2       1
+4             5.0          3.6           1.4          0.2       1
+32            5.2          4.1           1.5          0.1       1
+142           5.8          2.7           5.1          1.9       0
+85            6.0          3.4           4.5          1.6       0
+86            6.7          3.1           4.7          1.5       0
+16            5.4          3.9           1.3          0.4       1
+10            5.4          3.7           1.5          0.2       1
+81            5.5          2.4           3.7          1.0       0
+133           6.3          2.8           5.1          1.5       0
+137           6.4          3.1           5.5          1.8       0
+75            6.6          3.0           4.4          1.4       0
+109           7.2          3.6           6.1          2.5       0
+96            5.7          2.9           4.2          1.3       0
+105           7.6          3.0           6.6          2.1       0
+66            5.6          3.0           4.5          1.5       0
+0             5.1          3.5           1.4          0.2       1
+122           7.7          2.8           6.7          2.0       0
+67            5.8          2.7           4.1          1.0       0
+28            5.2          3.4           1.4          0.2       1
+40            5.0          3.5           1.3          0.3       1
+44            5.1          3.8           1.9          0.4       1
+60            5.0          2.0           3.5          1.0       0
+Shape of x_train= (4, 90) 
+Shape of y_train= (1, 90) 
+Shape of x_test (4, 60) 
+Shape of y_test= (1, 60)
+float64 float64
+4 90
+Cost at iteration: 0 is= 0.6931471805599454
+Cost at iteration: 1000 is= 0.06154849208322782
+Cost at iteration: 2000 is= 0.03333095527784634
+Cost at iteration: 3000 is= 0.02325083320087274
+Cost at iteration: 4000 is= 0.018011747762199867
+Cost at iteration: 5000 is= 0.01477889933331782
+Cost at iteration: 6000 is= 0.012575053840496028
+Cost at iteration: 7000 is= 0.010971265914018239
+Cost at iteration: 8000 is= 0.00974895518998857
+Cost at iteration: 9000 is= 0.008784740121114977
+[0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0]
+
+ Accuracy: 100.0 
+ Precision: 100.0 
+ Recall: 100.0 
+ F1: 100.0
+Confusion Matrix
+F:\Clemson\COURSE\SEM-1\Machine Learning Implementation and Evaluation(CPSC6430)\Project3\Ravichandran_Dineshchandar _P3_LR.py:205: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  sampleT_Disp['Predicted_data']=STrain_yPred_cls
+                        0                    1
+0  0  True Negatives \n63  False Negatives \n0
+1  1  Fasle Positives \n0  True Positives \n27 
+ None
+float64 float64
+
+ Accuracy: 100.0 
+ Precision: 100.0 
+ Recall: 100.0 
+ F1: 100.0
+Confusion Matrix
+F:\Clemson\COURSE\SEM-1\Machine Learning Implementation and Evaluation(CPSC6430)\Project3\Ravichandran_Dineshchandar _P3_LR.py:221: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  sampleTest_Disp['Predicted_data']=testPred
+                        0                    1
+0  0  True Negatives \n37  False Negatives \n0
+1  1  Fasle Positives \n0  True Positives \n23 
+ None
+
+Enter Training Data Details:
+
+
+Enter the Input File path:
+{eg:G:\File.txt}
+:F:/Clemson/COURSE/SEM-1/Machine Learning Implementation and Evaluation(CPSC6430)/Project3/P3train.txt
+
+
+Enter Test Data Details:
+
+
+Enter the Input File path:
+{eg:G:\File.txt}
+:F:/Clemson/COURSE/SEM-1/Machine Learning Implementation and Evaluation(CPSC6430)/Project3/P3test.txt
+None
+Shape of x_train= (8, 85) 
+Shape of y_train= (1, 85) 
+Shape of x_test (8, 33) 
+Shape of y_test= (1, 33)
+float64 float64 float64 float64
+8 85
+Cost at iteration: 0 is= 0.6931471805599454
+Cost at iteration: 5000 is= 0.4350381086255563
+Cost at iteration: 10000 is= 0.4191795746451209
+Cost at iteration: 15000 is= 0.4148783133786517
+Cost at iteration: 20000 is= 0.4134185737334665
+Cost at iteration: 25000 is= 0.41286653893293007
+Cost at iteration: 30000 is= 0.41264490897225764
+Cost at iteration: 35000 is= 0.41255271352470285
+Cost at iteration: 40000 is= 0.4125135091290422
+Cost at iteration: 45000 is= 0.4124966039696929
+[0, 1, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1]
+
+ Accuracy: 82.35 
+ Precision: 86.11 
+ Recall: 75.61 
+ F1: 80.52
+Confusion Matrix
+                        0                     1
+0  0  True Negatives \n39  False Negatives \n10
+1  1  Fasle Positives \n5   True Positives \n31 
+ None
+
+ Accuracy: 78.79 
+ Precision: 81.25 
+ Recall: 76.47 
+ F1: 78.79
+Confusion Matrix
+                        0                    1
+0  0  True Negatives \n13  False Negatives \n4
+1  1  Fasle Positives \n3  True Positives \n13 
+ None

@@ -1,0 +1,56 @@
+
+
+runfile('F:/Clemson/COURSE/SEM-1/Machine Learning Implementation and Evaluation(CPSC6430)/Project3/Ravichandran_Dineshchandar _P3_KNN.py', wdir='F:/Clemson/COURSE/SEM-1/Machine Learning Implementation and Evaluation(CPSC6430)/Project3')
+Enter Training Data Details:
+
+
+Enter the Input File path:
+{eg:G:\File.txt}
+:F:/Clemson/COURSE/SEM-1/Machine Learning Implementation and Evaluation(CPSC6430)/Project3/P3train.txt
+
+
+Enter Test Data Details:
+
+
+Enter the Input File path:
+{eg:G:\File.txt}
+:F:/Clemson/COURSE/SEM-1/Machine Learning Implementation and Evaluation(CPSC6430)/Project3/P3test.txt
+  K Value:1 K Value:3 K Value:5  ... K Value:17 K Value:19 K Value:21
+0         8         6         4  ...          6          6          8
+1         7         2         3  ...          7          7          7
+2         7         3         3  ...          7          8          7
+3         9         6         3  ...          8          7         11
+4         8         5         8  ...          8          9         10
+
+[5 rows x 11 columns]
+  k_Fold_No. K Value:1 K Value:3  ... K Value:17 K Value:19 K Value:21
+0          1         8         6  ...          6          6          8
+1          2         7         2  ...          7          7          7
+2          3         7         3  ...          7          8          7
+3          4         9         6  ...          8          7         11
+4          5         8         5  ...          8          9         10
+5        Sum        39        22  ...         36         37         43
+
+[6 rows x 12 columns]
+KValue Vs Error Graph 
+ None
+K Accuracy Plot 
+ None
+
+ Accuracy: 60.61 %
+
+ Precision: 62.5 %
+
+ Recall: 58.82 %
+
+ F1: 60.61 %
+                       0                   1
+0  0  True Negatives\n10  False Negatives\n7
+1  1  Fasle Positives\n6  True Positives\n10
+Confusion Matrix
+Table for Consfusion Matrix 
+ None
+Table for Consfusion Matrix DF
+                        0                   1
+0  0  True Negatives\n10  False Negatives\n7
+1  1  Fasle Positives\n6  True Positives\n10
