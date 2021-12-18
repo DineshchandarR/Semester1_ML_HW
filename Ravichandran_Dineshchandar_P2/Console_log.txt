@@ -1,0 +1,127 @@
+runfile('G:/Codes/Python/RAVICHANDRAN_DINESHCHANDAR_P2_Copy.py', wdir='G:/Codes/Python')
+====Enter Details For Training Data====
+
+Welcome 
+Kindly enter the file path of .csv you would like to load for trainig or testing and press enter:
+{eg:"G:\File.csv"}
+:F:/Clemson/COURSE/SEM-1/Machine Learning Implementation and Evaluation(CPSC6430)/Project 2/housing_train.csv
+
+Confirm file path:F:/Clemson/COURSE/SEM-1/Machine Learning Implementation and Evaluation(CPSC6430)/Project 2/housing_train.csv 
+ Press 'Y' to continue and Press 'N' to try again
+:y
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 14448 entries, 0 to 14447
+Data columns (total 10 columns):
+ #   Column              Non-Null Count  Dtype  
+---  ------              --------------  -----  
+ 0   longitude           14448 non-null  float64
+ 1   latitude            14448 non-null  float64
+ 2   housing_median_age  14448 non-null  int64  
+ 3   total_rooms         14448 non-null  int64  
+ 4   total_bedrooms      14310 non-null  float64
+ 5   population          14448 non-null  int64  
+ 6   households          14448 non-null  int64  
+ 7   median_income       14448 non-null  float64
+ 8   median_house_value  14448 non-null  int64  
+ 9   ocean_proximity     14448 non-null  object 
+dtypes: float64(4), int64(5), object(1)
+memory usage: 1.1+ MB
+Weight for Training is: [[168693.55272034]
+ [  5526.65379878]]
+J Value For Training is: [[1.23508844e+10]]
+Predicted Value For Training is: [[207292.40464831]
+ [203169.57672519]
+ [214499.20878139]
+ ...
+ [191069.76078368]
+ [191303.86294521]
+ [209078.98398144]]
+[[207292.40464831]
+ [203169.57672519]
+ [214499.20878139]
+ ...
+ [191069.76078368]
+ [191303.86294521]
+ [209078.98398144]]
+Compare Data for Training , here Ground Truth is represented by GT =
+        Rooms_per_household  Median_house_value(GT)  ...  Error in %  Sk_Prediction
+0                 6.984127                  452600  ...   54.199645  207292.404648
+1                 6.238137                  358500  ...   43.327873  203169.576725
+2                 8.288136                  352100  ...   39.080032  214499.208781
+3                 5.817352                  341300  ...   41.153226  200844.041029
+4                 6.281853                  342200  ...   40.557808  203411.181024
+                   ...                     ...  ...         ...            ...
+14443             3.913462                  295500  ...   35.593266  190321.899798
+14444             3.747292                  227800  ...   16.855338  189403.540602
+14445             4.048780                  290600  ...   34.249910  191069.760784
+14446             4.091139                  326500  ...   41.407699  191303.862945
+14447             7.307393                  500001  ...   58.184287  209078.983981
+
+[14448 rows x 5 columns]
+====Testing====
+
+Welcome 
+Kindly enter the file path of .csv you would like to load for trainig or testing and press enter:
+{eg:"G:\File.csv"}
+:F:/Clemson/COURSE/SEM-1/Machine Learning Implementation and Evaluation(CPSC6430)/Project 2/housing_test.csv
+
+Confirm file path:F:/Clemson/COURSE/SEM-1/Machine Learning Implementation and Evaluation(CPSC6430)/Project 2/housing_test.csv 
+ Press 'Y' to continue and Press 'N' to try again
+:y
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 6192 entries, 0 to 6191
+Data columns (total 10 columns):
+ #   Column              Non-Null Count  Dtype  
+---  ------              --------------  -----  
+ 0   longitude           6192 non-null   float64
+ 1   latitude            6192 non-null   float64
+ 2   housing_median_age  6192 non-null   int64  
+ 3   total_rooms         6192 non-null   int64  
+ 4   total_bedrooms      6123 non-null   float64
+ 5   population          6192 non-null   int64  
+ 6   households          6192 non-null   int64  
+ 7   median_income       6192 non-null   float64
+ 8   median_house_value  6192 non-null   int64  
+ 9   ocean_proximity     6192 non-null   object 
+dtypes: float64(4), int64(5), object(1)
+memory usage: 483.9+ KB
+J Value For Testing is: [[1.53503526e+10]]
+Predicted Value For Testing is: [[207292.40464831]
+ [203169.57672519]
+ [214499.20878139]
+ ...
+ [195887.29401889]
+ [199903.46823294]
+ [195901.69449893]]
+[[229893.14906083]
+ [228278.17217717]
+ [232716.16818679]
+ ...
+ [225425.5869007 ]
+ [226998.78584021]
+ [225431.22779642]]
+=====Traing Summary======
+Weight:  [[168693.55272034]
+ [  5526.65379878]] 
+ 
+j: [[1.23508844e+10]]
+====Test Summary=====
+Weight:  [[168693.55272034]
+ [  5526.65379878]] 
+ 
+j: [[1.53503526e+10]]
+Compare Data for Test , here Ground Truth is represented by GT =
+       Rooms_per_household  Median_house_value(GT)  ...  Error in %  Sk_Prediction
+0                6.984127                  450000  ...   53.935021  229893.149061
+1                6.238137                  332400  ...   38.877985  228278.172177
+2                8.288136                  394400  ...   45.613791  232716.168187
+3                5.817352                  311900  ...   35.606271  227367.223076
+4                6.281853                  376000  ...   45.901282  228372.812401
+                  ...                     ...  ...         ...            ...
+6187             5.481038                   78100  ...  154.782781  226639.145111
+6188             5.336898                   77100  ...  157.054141  226327.100664
+6189             4.920471                   92300  ...  112.228921  225425.586901
+6190             5.647163                   84700  ...  136.013540  226998.785840
+6191             4.923077                   89400  ...  119.129412  225431.227796
+
+[6192 rows x 5 columns]
